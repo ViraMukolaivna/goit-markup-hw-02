@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
 </head>
-<body>
-    <header>
-        <a href="./index.html">WebStudio</a>
+
+<body class="body">
+    <header class="header">
+        <a class="title-web-studio" href="./index.html"><span class="first-part">Web</span><span class="second-part">Studio</span></a>
+<!-- навігація -->
         <nav>
             <ul class="menu-nav">
                 <li><a class="name-studio" href="">Студія</a></li>
@@ -16,41 +22,45 @@
                 <li><a class="name-contacts" href="">Контакти</a></li>
                
             </ul>
-            
         </nav>
-            <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+<!-- контакти -->
+            <ul class="contacts">
+                <li><a class="link-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
     </header>
-<main>
-    <section>
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-                <button type="button">Замовити послугу</button>
+<!-- шапка -->
+<main class="main">
+    <section class="section-decision">
+            <h1 class="title-decision">Ефективні рішення для вашого бізнесу</h1>
+                <button class="button-order" type="button">Замовити послугу</button>
     </section>
-    <section>
-         <h2>Наші пріоритети</h2>
+<!-- текст -->
+    <section class="priorities">
+         <h2 class="head-title-priorities">Наші пріоритети</h2>
             <ul>
                
-                <li><h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
-                <li><h3>ПУНКТУАЛЬНІСТЬ</h3>
-                   <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
-                <li><h3>ПЛАНУВАННЯ</h3>
-                    <p>Так само консультація з широким активом значною мірою зумовлює.</p></li>
-                <li><h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
+                <li><h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p></li>
+                <li><h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
+                   <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p></li>
+                <li><h3 class="title">ПЛАНУВАННЯ</h3>
+                    <p class="text">Так само консультація з широким активом значною мірою зумовлює.</p></li>
+                <li><h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p></li>
             </ul>
             
     </section>
+<!-- фотографії -->
     <section>
             <h2>Чим ми займаємося</h2>
             <ul>
-                <li><img src="./images/computer.jpg" alt="людина працює за комп'ютером"></li>
+                <li><img src="./images/computer.jpg" alt="людина працює за комп'ютером" ></li>
                 <li><img src="./images/tablet.jpg" alt="людина працює за комп'ютером з телефоном"></li>
                 <li><img src="./images/telephone.jpg" alt="людина працює з графічним планшетом"></li>
             </ul>
     </section>
+<!-- люди -->
     <section>
             <h2>Наша команда</h2>
             <ul>
@@ -75,8 +85,8 @@
             </ul>
     </section>
 </main>
-
-<footer>
+<!-- низ -->
+<footer class="bottom-line">
     <address>
         <a href="./index.html">WebStudio</a>
         <ul>

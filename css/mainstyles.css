@@ -42,14 +42,9 @@ a {
 }
 
 
-.nav-link-stud:hover { color:var(--color-dark-blue)}
-.nav-link-port:hover { color:var(--color-dark-blue)}
-.nav-link-cont:hover { color:var(--color-dark-blue)}
-        
-.nav-link-stud:focus { color:var(--color-dark-blue)} 
-.nav-link-port:focus { color:var(--color-dark-blue)} 
-.nav-link-cont:focus { color:var(--color-dark-blue)} 
-
+.menu-nav:hover { color:var(--color-dark-blue)}
+    
+.menu-nav:focus { color:var(--color-dark-blue)} 
 
 
 .menu-nav {
@@ -58,30 +53,21 @@ a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
-
-.nav-link-stud {   
-    color: var(--color-light-blue);
-}
-.nav-link-port,
-.nav-link-cont {
     color: var(--color-dark);
 }
+.current {
+    color: var(--color-light-blue);
+}
+
 
 
 /* контакти */
-    .link-email,
-    .link-tel {
-        font-family: var(--primary-font);
-    }
-
-    .link-email { 
-        color: var(--color-light-blue);
-    }
-    
-    .link-tel {
-        color: var(--color-light-grey);
-    }
+.contacts-link {
+    font-family: var(--primary-font);
+    color: var(--color-light-grey);
+}
+.contacts-link:hover { color:var(--color-dark-blue)}
+.contacts-link:focus { color:var(--color-dark-blue)}
     
  /* головна частина */
     

@@ -63,11 +63,12 @@ button {
     .nav-link-port:focus { color:var(--color-dark-blue)} 
     .nav-link-cont:focus { color:var(--color-dark-blue)} 
     
-.nav-link-stud {   
+
+.nav-link-port{   
     color: var(--color-light-blue);
 }
 
-.nav-link-port,
+.nav-link-stud,
 .nav-link-cont {   
     color:var(--color-dark);
 }
@@ -102,6 +103,11 @@ button {
     clip-path: inset(50%);
     margin: -1px;
 }
+.button-active {
+    background-color: var(--color-light-blue);
+    color: var(--color-white);
+}
+
 .button,
 .button-active {
     font-family: var(--primary-font);
@@ -111,16 +117,13 @@ button {
     text-align: center;
     letter-spacing: var(--letter-spacing-normal);
 }
-.button-active:hover { background-color:var(--color-dark-blue) }
-.button-active:focus { background-color:var(--color-dark-blue) }
-.button:hover { background-color:var(--color-dark-blue) }
+
+.button:hover { background-color:var(--color-dark-blue)}
+.button:hover {color: var(--color-white)}
 .button:focus { background-color:var(--color-dark-blue) }
+.button:focus { color:var(--color-white) }
 
 
-.button-active {
-    background-color: var(--color-light-blue);
-    color: var(--color-white);
-}
     
 .button {
     background-color: var(--color-lignt-grey);

@@ -16,6 +16,13 @@ a {
 .list {
     list-style: none;
 }
+img {
+    display: block;
+}
+button {
+    cursor: pointer;
+}
+
 
 /* верхній хедер */
 .header {
@@ -62,12 +69,16 @@ a {
 
 
 /* контакти */
+.active-link:hover, .active-link:focus { color:var(--color-dark-blue)}
 .contacts-link {
     font-family: var(--primary-font);
     color: var(--color-light-grey);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
-.contacts-link:hover { color:var(--color-dark-blue)}
-.contacts-link:focus { color:var(--color-dark-blue)}
+
     
  /* головна частина */
     
@@ -207,4 +218,145 @@ img {
 }
 .footer {
 background-color: var(--color-dark-grey);
+}
+
+
+
+
+
+
+/* PORTOFOLIO */
+
+
+/* верхній хедер */
+.header {
+    background-color: var(--color-white);
+}
+.head-web-studio,
+.menu-nav {
+    align-items: center;
+}
+
+.head-web-studio,
+.footer-web-studio {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: var(--letter-spacing-normal);
+}
+.first-part {
+    color: var(--color-light-blue);
+}
+.second-part {
+    color: #000000 ;
+    }
+.menu-nav {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+        
+    .nav-link-stud:hover, .nav-link-stud:focus { color:var(--color-dark-blue)}
+    .nav-link-port:hover, .nav-link-port:focus { color:var(--color-dark-blue)}
+    .nav-link-cont:hover, .nav-link-cont:focus { color:var(--color-dark-blue)}
+        
+.nav-link-port{   
+    color: var(--color-light-blue);
+}
+
+.nav-link-stud,
+.nav-link-cont {   
+    color:var(--color-dark);
+}
+    
+/* контакти */
+
+
+    
+/* buttons */
+.title-projects, 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+     border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+.button {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: var(--letter-spacing-normal);
+    
+    background-color: var(--color-lignt-grey);
+    color: var(--color-dark);
+}
+
+.button:hover, .button:focus  { background-color:var(--color-dark-blue); color: var(--color-white); }
+
+
+
+.h-project {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-dark);
+}
+.text-project {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: var(--letter-spacing-normal);
+    color: var(--color-light-grey);
+
+}
+/* footer */
+.footer {
+    background-color: var(--color-dark-grey);
+}
+.footer-a {
+    font-style:normal;
+}
+    
+.f-first-part {
+    color: var(--color-light-blue);
+}
+    
+.f-second-part {
+    color: var(--color-white) ;
+}
+
+    .geo:hover { color:var(--color-dark-blue)}
+    .bottom-contacts:hover { color:var(--color-dark-blue)}
+        
+    .geo:focus { color:var(--color-dark-blue)} 
+    .bottom-contacts:focus { color:var(--color-dark-blue)} 
+
+.geo,
+.bottom-contacts {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: var(--letter-spacing-normal);
+}
+.geo {
+    color: var(--color-white);  
+}
+
+.bottom-contacts { 
+    color: #ffffff99; 
 }

@@ -99,6 +99,7 @@ button {
     .button-order {
         background-color: var(--color-light-blue);
         color: var(--color-white);
+        border-style: var(--color-light-blue);
         font-family: var(--primary-font);
         font-weight: 700;
         font-size: 16px;
@@ -293,6 +294,9 @@ background-color: var(--color-dark-grey);
 
 
 .button {
+    background-color: #F5F4FA;
+    color: var(--color-dark);
+    border-color: #F5F4FA;
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
@@ -300,8 +304,7 @@ background-color: var(--color-dark-grey);
     text-align: center;
     letter-spacing: var(--letter-spacing-normal);
     
-    background-color: var(--color-lignt-grey);
-    color: var(--color-dark);
+   
 }
 
 .button:hover, .button:focus  { background-color:var(--color-dark-blue); color: var(--color-white); }
